@@ -1,0 +1,39 @@
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-section p {
+  margin: 1px 5px; 
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-top: 10px;
+  }
+}

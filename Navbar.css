@@ -1,0 +1,39 @@
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    height: 65px; 
+    width:65px;
+    border-radius: 200px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+
+  nav a{
+    color: gold;
+  }
+  .nav-link:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .nav-link.active {
+    text-decoration: none;
+  }
+
+  

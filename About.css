@@ -1,0 +1,42 @@
+
+.about-page {
+  text-align: center;
+  margin: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+}
+
+.card-image {
+  border-radius: 50%;
+  width: 200x;
+  height: 200px;
+  margin-bottom: 10px; /* Add margin-bottom to give space between image and title */
+}
+
+.card-title {
+  font-weight: bold;
+  color:darkblue;
+}
+
+.card-paragraph {
+  margin-top: 10px;
+  font-size: 14px;
+ font-family: lucida;
+ color:darkblue;
+}
+
+.additional-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+

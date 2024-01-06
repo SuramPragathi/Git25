@@ -1,0 +1,39 @@
+  
+header {
+    background-color: #333;
+    padding: 20px;
+    overflow: hidden; 
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 15px; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  a:hover {
+    color: #ffcc00;
+  }
